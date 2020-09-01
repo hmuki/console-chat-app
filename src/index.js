@@ -89,6 +89,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3000, (req, res) => {
+server.listen(port, (req, res) => {
   console.log("Server is up on port " + port);
 });
